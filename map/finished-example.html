@@ -19,7 +19,7 @@
     function initMap() {
       var myOptions = {
         zoom: 8,
-        center: {lat: 35.22195, lng: 135.434515},
+        center: {lat: 35.0394312, lng: 135.7292082},
         mapTypeId: google.maps.MapTypeId.TERRAIN,
         disableDefaultUI: true,
         // Step 4. Customize displayed controls
@@ -34,14 +34,14 @@
       var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
 
       var marker = new google.maps.Marker({
-        position: {lat: 35.22195, lng: 135.434515},
+        position: {lat: 35.0394312, lng: 135.7292082},
         icon: iconBase + 'flag_maps.png',
         map: map
       });
 
       // Step 3. Add info window
 
-      var contentString = '<div id="content"><h2 id="firstHeading" class="firstHeading">Custom info Window</h2><p>This is Kinkakuji.</p></div>';
+      var contentString = '<div id="content"><h2 id="firstHeading" class="firstHeading">KINKAKUJI</h2><p>This is Kinkakuji.</p></div>';
 
       var infowindow = new google.maps.InfoWindow({
         content: contentString
